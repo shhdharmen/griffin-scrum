@@ -11,11 +11,15 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { GeneratorWrapperComponent } from './generator-wrapper/generator-wrapper.component';
+import { PreviewWrapperComponent } from './preview-wrapper/preview-wrapper.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainWrapperComponent
+    MainWrapperComponent,
+    GeneratorWrapperComponent,
+    PreviewWrapperComponent
   ],
   imports: [
     BrowserModule,
