@@ -23,9 +23,26 @@
         (click)="drawer.toggle()"
         *ngIf="isHandset$ | async"
       >
-        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        <fa-icon [icon]="faBars" aria-label="Sidenav toggle icon"></fa-icon>
       </button>
-      <span>Griffin Scrum</span>
+      <span>
+        <img
+          src="../../assets/images/griffin.png"
+          alt="Griffin"
+          width="50"
+          class="mr-2"
+        />Griffin Scrum</span
+      >
+      <a
+        mat-icon-button
+        aria-label="Github icon button"
+        class="ml-auto pt-1"
+        href="https://github.com/shhdharmen/griffin-scrum"
+        target="_blank"
+        type="noopener noreferrer"
+      >
+        <fa-icon [icon]="faGithub" aria-label="Github icon" size="2x"></fa-icon>
+      </a>
     </mat-toolbar>
     <div class="container-fluid wrapper overflow-hidden">
       <div class="row h-100">

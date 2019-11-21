@@ -1,0 +1,14 @@
+{
+  "assets": [
+    {
+      "name": "Griffin",
+      "url": "https://pixabay.com/vectors/griffin-gryphon-line-art-4018762/",
+      "location": "Header Logo, Main Logo",
+      "author": {
+        "name": "Gordon Johnson",
+        "url": "https://pixabay.com/users/gdj-1086657/?tab=about"
+      },
+      "html": "Image by <a href='https://pixabay.com/users/GDJ-1086657/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4018762'>Gordon Johnson</a> from <a href='https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4018762'>Pixabay</a>"
+    }
+  ]
+}
